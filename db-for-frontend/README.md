@@ -69,8 +69,8 @@ docker compose exec -T db psql -U study -d playground < 01-structure/01-pk-fk.sq
 ## 진행률
 
 ```
-[ ] 0. 셋업          docker compose up
-[ ] 1. 구조          PK/FK · 정규화 · JSONB
+[x] 0. 셋업          docker compose up
+[x] 1. 구조          PK/FK · 정규화 · JSONB
 [ ] 2. 무결성        트랜잭션 · ACID · 격리 수준
 [ ] 3. 인덱스/검색    B-Tree · EXPLAIN · N+1 · 페이지네이션
 [ ] 4. 동시성        Lock · Deadlock · MVCC
